@@ -32,7 +32,7 @@ campsiteRouter
     next();
   })
   .get((req, res) => {
-    res.end(`Here is ${req.params.campsiteId}`);
+    res.end(`Here is campsite ${req.params.campsiteId}`);
   })
   .post((req, res) => {
     res.end(`Will add the ${req.params.campsiteId}`);

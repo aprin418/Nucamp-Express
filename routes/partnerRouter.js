@@ -32,7 +32,7 @@ partnerRouter
     next();
   })
   .get((req, res) => {
-    res.end(`Here is ${req.params.partnerId}`);
+    res.end(`Here is partner ${req.params.partnerId}`);
   })
   .post((req, res) => {
     res.end(`Will add the ${req.params.partnerId}`);

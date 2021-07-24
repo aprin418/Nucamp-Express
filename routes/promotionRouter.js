@@ -32,7 +32,7 @@ promotionRouter
     next();
   })
   .get((req, res) => {
-    res.end(`Here is ${req.params.promotionId}`);
+    res.end(`Here is promotion ${req.params.promotionId}`);
   })
   .post((req, res) => {
     res.end(`Will add the ${req.params.promotionId}`);
